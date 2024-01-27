@@ -10,6 +10,8 @@
 		425521882B629FB30001B5D3 /* NewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425521872B629FB30001B5D3 /* NewVC.swift */; };
 		4255218A2B63B7720001B5D3 /* SemaphoreVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425521892B63B7720001B5D3 /* SemaphoreVC.swift */; };
 		4255218C2B63BCE00001B5D3 /* SofiaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4255218B2B63BCE00001B5D3 /* SofiaVC.swift */; };
+		4255218E2B64F7560001B5D3 /* DispatchGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4255218D2B64F7560001B5D3 /* DispatchGroupVC.swift */; };
+		425521902B658C420001B5D3 /* BarrierVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4255218F2B658C420001B5D3 /* BarrierVC.swift */; };
 		428362862B61C0250023981A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428362852B61C0250023981A /* AppDelegate.swift */; };
 		428362882B61C0250023981A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428362872B61C0250023981A /* SceneDelegate.swift */; };
 		4283628A2B61C0250023981A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 428362892B61C0250023981A /* ViewController.swift */; };
@@ -21,6 +23,8 @@
 		425521872B629FB30001B5D3 /* NewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewVC.swift; sourceTree = "<group>"; };
 		425521892B63B7720001B5D3 /* SemaphoreVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SemaphoreVC.swift; sourceTree = "<group>"; };
 		4255218B2B63BCE00001B5D3 /* SofiaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofiaVC.swift; sourceTree = "<group>"; };
+		4255218D2B64F7560001B5D3 /* DispatchGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DispatchGroupVC.swift; sourceTree = "<group>"; };
+		4255218F2B658C420001B5D3 /* BarrierVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarrierVC.swift; sourceTree = "<group>"; };
 		428362822B61C0250023981A /* GCD.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GCD.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		428362852B61C0250023981A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		428362872B61C0250023981A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -41,6 +45,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		425521912B658C470001B5D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				428362892B61C0250023981A /* ViewController.swift */,
+				4255218B2B63BCE00001B5D3 /* SofiaVC.swift */,
+				425521872B629FB30001B5D3 /* NewVC.swift */,
+				425521892B63B7720001B5D3 /* SemaphoreVC.swift */,
+				4255218D2B64F7560001B5D3 /* DispatchGroupVC.swift */,
+				4255218F2B658C420001B5D3 /* BarrierVC.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		428362792B61C0250023981A = {
 			isa = PBXGroup;
 			children = (
@@ -60,12 +77,9 @@
 		428362842B61C0250023981A /* GCD */ = {
 			isa = PBXGroup;
 			children = (
+				425521912B658C470001B5D3 /* Views */,
 				428362852B61C0250023981A /* AppDelegate.swift */,
 				428362872B61C0250023981A /* SceneDelegate.swift */,
-				428362892B61C0250023981A /* ViewController.swift */,
-				4255218B2B63BCE00001B5D3 /* SofiaVC.swift */,
-				425521872B629FB30001B5D3 /* NewVC.swift */,
-				425521892B63B7720001B5D3 /* SemaphoreVC.swift */,
 				4283628E2B61C0270023981A /* Assets.xcassets */,
 				428362902B61C0270023981A /* LaunchScreen.storyboard */,
 				428362932B61C0270023981A /* Info.plist */,
@@ -145,6 +159,8 @@
 			files = (
 				4283628A2B61C0250023981A /* ViewController.swift in Sources */,
 				425521882B629FB30001B5D3 /* NewVC.swift in Sources */,
+				425521902B658C420001B5D3 /* BarrierVC.swift in Sources */,
+				4255218E2B64F7560001B5D3 /* DispatchGroupVC.swift in Sources */,
 				428362862B61C0250023981A /* AppDelegate.swift in Sources */,
 				4255218A2B63B7720001B5D3 /* SemaphoreVC.swift in Sources */,
 				428362882B61C0250023981A /* SceneDelegate.swift in Sources */,
